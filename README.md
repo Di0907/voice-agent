@@ -51,11 +51,13 @@ http://127.0.0.1:8080/client/index.html
 A 2-minute demonstration video showing 5+ continuous back-and-forth turns has been submitted to the Inference.ai platform as part of this project’s deliverables.
 
 🧩 Technologies Used
-FastAPI – Backend web framework
-Uvicorn – ASGI server
-Whisper / HuggingFace – Speech-to-text
-LLaMA / TextGenerationPipeline – Response generation
+🧩 **Technologies Used**  
+FastAPI – Backend web framework  
+Uvicorn – ASGI server  
+Whisper / HuggingFace – Speech-to-text  
+LLaMA / TextGenerationPipeline – Response generation  
 Coqui TTS – Text-to-speech synthesis
+
 
 📜 License
 This project was developed for academic purposes as part of the Inference.ai – Voice Agent Development module.

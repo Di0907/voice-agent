@@ -17,32 +17,32 @@ It integrates **Automatic Speech Recognition (ASR)** → **Large Language Model 
 - **Pipeline:**  
 User Speech → ASR (Whisper / HuggingFace) → LLM (HuggingFace TextGenerationPipeline) → TTS (Coqui / HuggingFace) → Audio Reply
 
----
+📁 **Project Structure**
 
-## 🗂️ Project Structure
+```
 voice-agent/
 │
-├── app.py # Main FastAPI backend
-├── modules/ # ASR, LLM, and TTS modules
-├── client/ # Frontend HTML/JS client
-├── sessions/ # Session cache (auto-created)
-├── requirements.txt # Dependencies
-└── start_voice_agent.bat # One-click launcher (auto dependency check)
-
----
+├── app.py                 # Main FastAPI backend
+├── modules/               # ASR, LLM, and TTS modules
+├── client/                # Frontend HTML/JS client
+├── sessions/              # Session cache (auto-created)
+├── requirements.txt       # Dependencies
+└── start_voice_agent.bat  # One-click launcher (auto dependency check)
+```
 
 ## ▶️ Quick Start
 
 1. **Clone the repository**
     git clone https://github.com/Di0907/voice-agent-demo
     cd voice-agent-demo
-2. **Run the launcher**
-    start_voice_agent.bat
-The launcher will:
--Automatically check and install missing dependencies
--Start the FastAPI backend on port 8000
--Start the frontend server on port 8080
--Open your browser automatically
+2. **Run the launcher** `start_voice_agent.bat`
+
+   The launcher will:
+   - Automatically check and install missing dependencies  
+   - Start the FastAPI backend on port **8000**  
+   - Start the frontend server on port **8080**  
+   - Open your browser automatically
+
 
 2. **Access in Browser**
 http://127.0.0.1:8080/client/index.html

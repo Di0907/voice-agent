@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Voice Agent</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 24px; }
+    #log  { width: 100%; height: 260px; }
+    #hold { padding: 8px 14px; }
+    audio { width: 360px; margin-top: 16px; display:block; }
+  </style>
+</head>
+<body>
+  <h1>Voice Agent </h1>
+  <button id="hold">Hold to Talk</button>
+  <br/><br/>
+  <textarea id="log" readonly></textarea>
+  <audio id="player" controls></audio>
+
+  <script src="client.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+fastapi[standard]
+uvicorn
+transformers
+accelerate
+faster-whisper
+soundfile
+av
+edge-tts
